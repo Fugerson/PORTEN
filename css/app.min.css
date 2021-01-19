@@ -196,9 +196,6 @@ li {
   color: #969696;
   border-color: #969696
 }
-.row {
-  margin: 0!important
-}
 .cartBox {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -78,9 +78,10 @@ class Main {
         }
     }
     eventBurgerButton(e){
-        this.burgerMenuList.style.display = "none";
-        this.checkPopupMenuHead = true;
-        // console.log(this)
+        if(document.documentElement.clientWidth < 950){
+            this.burgerMenuList.style.display = "none";
+            this.checkPopupMenuHead = true;
+        }
     }
 
     attachEvents() {

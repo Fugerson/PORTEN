@@ -385,6 +385,7 @@ li {
 .headerPopup-show {
   background-color: #000;
   position: fixed;
+  z-index: 999;
   display: block;
   width: 100%;
   bottom: 0;

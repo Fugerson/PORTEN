@@ -705,7 +705,7 @@ li {
   width: 70%!important
 }
 @media screen and (max-width:400px) {
-  .cartBox .cartBox__item{
+  .cartBox__item{
     left: 0;
     width: 100%!important;
   }
